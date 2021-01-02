@@ -29,7 +29,7 @@ entries:
       url: https://github.com/thesuperzapper
     name: airflow
     sources:
-    - https://github.com/airflow-helm/charts/tree/main/charts/airflow
+    - https://github.com/hudsondba/charts/tree/main/charts/airflow
     urls:
     - https://github.com/airflow-helm/charts/releases/download/airflow-7.16.0/airflow-7.16.0.tgz
     version: 7.16.0
