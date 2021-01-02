@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  airflow:
+  - apiVersion: v2
+    appVersion: 1.10.12
+    created: "2021-01-02T23:22:45.689022819Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 8.6.4
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.helm.sh/stable
+      version: 10.5.7
+    description: airflow is a platform to programmatically author, schedule, and monitor
+      workflows
+    digest: 3bb707f527a51e88eda92ba49cf9b7734720f3341c4eb20f3f8826c3d9b9db36
+    home: https://airflow.apache.org/
+    icon: https://airflow.apache.org/_images/pin_large.png
+    keywords:
+    - airflow
+    - dag
+    - workflow
+    maintainers:
+    - name: gsemet
+      url: https://github.com/gsemet
+    - name: thesuperzapper
+      url: https://github.com/thesuperzapper
+    name: airflow
+    sources:
+    - https://github.com/airflow-helm/charts/tree/main/charts/airflow
+    urls:
+    - https://hudsondba.github.io/charts/airflow-7.16.0.tgz
+    version: 7.16.0
+generated: "2021-01-02T23:22:45.676670028Z"
