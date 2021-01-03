@@ -251,7 +251,7 @@ spec:
                && airflow upgradedb || airflow db upgrade \
               {{- end }}
               {{- if .Values.scheduler.variables }}
-               && echo "*** adding Airflow variables..." \
+               && echo "*** adding Airflow variables hudson..." \
                && airflow variables import /home/airflow/variables-pools/variables.json \
               {{- end }}
               {{- if or (.Values.scheduler.connections) (.Values.scheduler.existingSecretConnections) }}
