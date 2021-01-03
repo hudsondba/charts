@@ -31,6 +31,6 @@ entries:
     sources:
     - https://github.com/hudsondba/charts/tree/main/charts/airflow
     urls:
-    - https://hudsondba.github.io/charts/airflow-7.16.0.tgz
-    version: 7.16.0
+    - https://hudsondba.github.io/charts/airflow-7.16.1.tgz
+    version: 7.16.1
 generated: "2021-01-02T23:22:45.676670028Z"
